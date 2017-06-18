@@ -1,0 +1,284 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.Logistic -C -R 1.0E-8 -M 1000 -num-decimal-places 4
+Relation:     incident-type-weka.filters.unsupervised.attribute.Remove-R2-weka.filters.unsupervised.attribute.StringToWordVector-R1-W50000-prune-rate-1.0-C-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M1-tokenizerweka.core.tokenizers.NGramTokenizer -max 3 -min 1 -delimiters " \r\n\t.,;:\'\"()?!"-weka.filters.unsupervised.attribute.Remove-R3-1794,1796-1831,1833-3092,3094-3607,3609-3629,3631-3792,3794-3795,3797-3799,3801-3869,3871-3903,3905-4202,4204-4235,4237-4290,4292-4432,4434-4469,4471-4590,4592-4782,4784-4952,4954-5252,5254-6071,6073-6444,6446-6448,6450-6481,6483-6485,6487,6489-6963,6965-7010,7012-7256,7258-7796,7798-7838,7840-7942,7944-8110,8112-8623,8625-8930,8932-8967,8969-9411,9413-9537,9539-9581,9583-9625,9627-9739,9741-9770,9773-9789,9791-10025,10027-10111,10113-10278,10280-10370,10372,10374-10455,10457-10905,10907-11544,11546-11577,11579,11581-12671,12673-13006,13008-13104,13106-13421,13423-13832,13834-13978,13980-18022,18024-18025,18027-20461,20463-21023,21025-21242,21244-21624,21626-21627,21629-23722,23725,23727-23834,23836-23870,23872-23877,23879-24509,24511-24554,24556-24780,24782-25255,25257-27292,27294-27691,27693-27714,27716-28992,28994-29416,29418-29763,29765-29807,29809-30576,30578-31183,31185-31189,31191-31921,31923-32388,32390-33221,33224-33440,33442-33533,33535-33995,33997-34081,34083-34143,34145-34294,34296-34312,34314-35614,35616-35623,35625-36076,36078-36778,36780-36956,36958-37229,37231-39141,39143-39197,39199-39261,39263-39887,39889-39916,39918-43550,43552-43680,43682-44341,44343-44352,44354-45380,45382-45399,45401,45403-46389
+Instances:    260
+Attributes:   117
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                                                      Class
+Variable                                    prescribe/order
+===========================================================
+binaryadmin=notadminister/monitor                   36.2586
+alarm                                                0.9193
+allergy                                             29.0208
+been given                                         -26.4476
+chamber                                             -1.0675
+changed                                              1.4842
+communicate                                          7.6003
+communicated                                          6.518
+communication                                        0.3903
+connected to                                         0.9193
+continuous                                           5.0829
+different patient                                   -3.9104
+discharge                                           14.8928
+dispensed                                          -27.4847
+dose given                                           0.9191
+dose was given                                     -18.7931
+drew up                                             -2.4953
+emar                                                  21.66
+expired medication                                  -5.8871
+found                                               -2.4635
+hung                                                 1.0129
+infused pump                                        -1.3686
+infusing                                            10.0504
+infusion pump                                        3.4495
+infusion rate                                       -5.2299
+infusion setting                                     0.4579
+labeling as                                          0.9098
+leaking                                             -2.1739
+mar                                                   0.194
+nauseated                                           13.2215
+new order                                            0.1127
+normal                                               7.5934
+noted to                                            16.1425
+omnicell                                           -10.7488
+order                                                0.5078
+ordered                                             -1.3417
+pca pump                                           -13.7367
+pharmacy                                            -1.2227
+picked up                                          -10.7748
+policy                                              -6.4818
+prior to                                             1.8879
+programmed                                           0.9227
+programmed into                                      0.9157
+proper protocol                                      0.9158
+pump                                                 0.3766
+pyxis                                              -17.2478
+received                                             2.6203
+red rash                                            -7.1523
+redness                                             -6.2567
+removed from                                       -18.6523
+scanned                                            -20.5169
+suddenly stopped                                     0.9153
+supposed to                                         -9.4692
+supposed to receive                                -55.2416
+to be given                                         -2.2995
+too early                                            0.9149
+turned off                                           10.382
+vomit the medication                                 0.9155
+wasted                                             -10.9711
+were not scanned                                     0.9158
+allergic                                            17.5038
+allergic to                                         23.3842
+barcode                                              0.4246
+bin                                                 -4.2455
+bradycardic                                          23.023
+calculate                                           -11.335
+calculated                                           23.023
+discharge medication list                            23.023
+discharge medications                                23.023
+discharge orders                                    11.5115
+dispensed as                                         0.7853
+dizziness                                            0.4712
+dizzy                                               11.5115
+duplicates                                          23.1161
+dyspneic                                             23.023
+emr                                                 15.4481
+faint                                                23.023
+hemorrhagic stroke                                  23.0235
+hives                                                 8.305
+hold off                                             0.3021
+interprets                                           0.9112
+itching                                             13.3254
+label                                               -1.1881
+lack of availability                               -17.4327
+med rec                                             17.3082
+mix                                                 -7.7005
+mixed up                                           -14.3973
+normally                                            23.1196
+npo                                                 -8.3112
+omni                                               -18.8197
+omni cell                                            0.8785
+on his tray                                          -2.778
+on the counter                                       0.8715
+ordered as                                          23.0236
+ordering                                            15.6743
+orders were ignored                                 -7.6569
+overdose                                            23.1122
+override                                            17.1046
+pick up                                              1.8184
+pickup                                              -4.8101
+prior to administration                             -5.2292
+quickmar                                            -2.3608
+ready                                               -1.6929
+redose                                               23.023
+signed out                                         -14.6198
+sitting on                                          -14.947
+slot                                                 -7.816
+stock                                                0.9161
+storage                                             -4.8101
+transcribed                                        -11.0116
+tube station                                         0.4533
+vomiting                                            -1.1792
+vomitting                                           15.0966
+were ignored                                        -7.6569
+were missed                                         39.6379
+were missing                                         0.9193
+Intercept                                          -36.1086
+
+
+Odds Ratios...
+                                                      Class
+Variable                                    prescribe/order
+===========================================================
+binaryadmin=notadminister/monitor      5.583400062626056E15
+alarm                                                2.5075
+allergy                                4.014048353241979E12
+been given                                                0
+chamber                                              0.3439
+changed                                              4.4114
+communicate                                       1998.8228
+communicated                                       677.2165
+communication                                        1.4774
+connected to                                         2.5076
+continuous                                         161.2383
+different patient                                      0.02
+discharge                                       2936678.551
+dispensed                                                 0
+dose given                                           2.5069
+dose was given                                            0
+drew up                                              0.0825
+emar                                         2551510801.772
+expired medication                                   0.0028
+found                                                0.0851
+hung                                                 2.7537
+infused pump                                         0.2545
+infusing                                         23165.4499
+infusion pump                                        31.486
+infusion rate                                        0.0054
+infusion setting                                     1.5807
+labeling as                                          2.4837
+leaking                                              0.1137
+mar                                                  1.2141
+nauseated                                        552084.157
+new order                                            1.1193
+normal                                            1985.0755
+noted to                                      10247235.8889
+omnicell                                                  0
+order                                                1.6616
+ordered                                              0.2614
+pca pump                                                  0
+pharmacy                                             0.2944
+picked up                                                 0
+policy                                               0.0015
+prior to                                             6.6058
+programmed                                            2.516
+programmed into                                      2.4985
+proper protocol                                      2.4987
+pump                                                 1.4573
+pyxis                                                     0
+received                                            13.7403
+red rash                                             0.0008
+redness                                              0.0019
+removed from                                              0
+scanned                                                   0
+suddenly stopped                                     2.4976
+supposed to                                          0.0001
+supposed to receive                                       0
+to be given                                          0.1003
+too early                                            2.4965
+turned off                                        32274.697
+vomit the medication                                 2.4981
+wasted                                                    0
+were not scanned                                     2.4987
+allergic                                      39977859.5388
+allergic to                            1.431001777396398E10
+barcode                                              1.5291
+bin                                                  0.0143
+bradycardic                                 9971406613.7968
+calculate                                                 0
+calculated                                  9971406613.2747
+discharge medication list                   9971406613.3168
+discharge medications                       9971406613.3168
+discharge orders                                 99856.9307
+dispensed as                                          2.193
+dizziness                                            1.6019
+dizzy                                            99856.9307
+duplicates                            1.0944709289732527E10
+dyspneic                                    9971406613.7968
+emr                                             5116937.839
+faint                                       9971406613.3007
+hemorrhagic stroke                          9976122160.6803
+hives                                             4043.8418
+hold off                                             1.3527
+interprets                                           2.4874
+itching                                         612558.2587
+label                                                0.3048
+lack of availability                                      0
+med rec                                       32872737.5108
+mix                                                  0.0005
+mixed up                                                  0
+normally                              1.0982886337667881E10
+npo                                                  0.0002
+omni                                                      0
+omni cell                                            2.4073
+on his tray                                          0.0622
+on the counter                                       2.3906
+ordered as                                  9977797075.3261
+ordering                                       6415885.3604
+orders were ignored                                  0.0005
+overdose                              1.0902170773994877E10
+override                                      26818066.4905
+pick up                                              6.1619
+pickup                                               0.0081
+prior to administration                              0.0054
+quickmar                                             0.0943
+ready                                                 0.184
+redose                                      9971406613.2747
+signed out                                                0
+sitting on                                                0
+slot                                                 0.0004
+stock                                                2.4996
+storage                                              0.0081
+transcribed                                               0
+tube station                                         1.5735
+vomiting                                             0.3075
+vomitting                                      3600549.6971
+were ignored                                         0.0005
+were missed                          1.63884359789049504E17
+were missing                                         2.5076
+
+
+Time taken to build model: 0.37 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         213               81.9231 %
+Incorrectly Classified Instances        47               18.0769 %
+Kappa statistic                          0.6086
+Mean absolute error                      0.1891
+Root mean squared error                  0.3801
+Relative absolute error                 42.4171 %
+Root relative squared error             80.5372 %
+Total Number of Instances              260     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.805    0.173    0.700      0.805    0.749      0.612    0.873     0.754     prescribe/order
+                 0.827    0.195    0.894      0.827    0.859      0.612    0.876     0.919     notprescribe/order
+Weighted Avg.    0.819    0.188    0.829      0.819    0.822      0.612    0.875     0.864     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+  70  17 |   a = prescribe/order
+  30 143 |   b = notprescribe/order
+
